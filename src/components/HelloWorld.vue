@@ -73,6 +73,8 @@ export default {
       if (!localStorage.getItem("info")) {
         localStorage.setItem("info", "[]");
       }
+        alert('Вы сохранили персональные данные')
+      
       const data = JSON.parse(localStorage.getItem("info"));
       data.push(obj);
       localStorage.setItem("info", JSON.stringify(data));
