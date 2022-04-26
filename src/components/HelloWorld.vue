@@ -184,6 +184,7 @@ export default {
   background: #01a7fd;
   border-radius: 50px;
   border: none;
+  cursor: pointer;
 }
 .clean-btn {
   width: 140px;
@@ -193,5 +194,11 @@ export default {
   background: #fd6601;
   border-radius: 50px;
   border: none;
+  cursor: pointer;
+}
+.clean-btn:hover, .save-btn:hover {
+   width: 138px;
+  height: 38px;
+  border: 1px solid gray;
 }
 </style>
